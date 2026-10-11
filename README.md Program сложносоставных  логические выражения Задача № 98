@@ -1,0 +1,17 @@
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    namespace Program98
+    {
+    internal class Program
+    {
+        static void Main()
+        {
+            bool result = ((15 & ~1) == 14) && ((14 | 1) == 15);
+            Console.WriteLine(result); // True
+        }
+    }
+    }
